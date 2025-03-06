@@ -98,7 +98,6 @@ export class AuthService {
 			expires: expiresIn,
 			secure: true,
 			sameSite: 'none',
-			domain: '.listiify.vercel.app',
 			path: '/'
 		})
 	}
@@ -109,7 +108,6 @@ export class AuthService {
 			expires: new Date(0),
 			secure: true,
 			sameSite: 'none',
-			domain: '.listiify.vercel.app',
 			path: '/'
 		})
 	}
