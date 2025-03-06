@@ -8,7 +8,7 @@ async function bootstrap() {
 	app.setGlobalPrefix('api')
 	app.use(cookieParser())
 	app.enableCors({
-		origin: ['http://localhost:3000'],
+		origin: ['http://localhost:3000', 'https://listiify.vercel.app'],
 		credentials: true,
 		exposedHeaders: 'set-cookie'
 	})
