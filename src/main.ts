@@ -10,9 +10,8 @@ async function bootstrap() {
 	app.enableCors({
 		origin: 'https://listiify.vercel.app',
 		credentials: true,
-		exposedHeaders: 'set-cookie'
 	})
 
-	await app.listen(4200)
+	await app.listen(process.env.PORT || 4200)
 }
 bootstrap();
