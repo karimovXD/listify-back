@@ -99,7 +99,6 @@ export class AuthService {
 			secure: true,
 			partitioned: true,
 			sameSite: 'none',
-			//path: '/'
 		})
 	}
 
@@ -109,7 +108,6 @@ export class AuthService {
 			expires: new Date(0),
 			secure: true,
 			sameSite: 'none',
-			//path: '/'
 		})
 	}
 }
